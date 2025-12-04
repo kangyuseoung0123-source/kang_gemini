@@ -12,7 +12,7 @@ class GeminiChatApp(QDialog):
     kang_gemini.ui 파일을 로드하고 Gemini API와 통신하는 채팅 애플리케이션 클래스
     """
     # API 키 설정
-    GEMINI_API_KEY = "AIzaSyDaRAkp8UWczcXgsUnPkdSBF1ZscMRi8jQ"
+    GEMINI_API_KEY = "GEMINI_API_KEY"
     
     def __init__(self):
         super().__init__()
